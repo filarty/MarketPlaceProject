@@ -1,0 +1,17 @@
+.star {
+    font-size: 24px; /* Размер звезды */
+    color: gold; /* Цвет активных звезд */
+}
+
+.half-star-left{
+    font-size: 24px;
+    color: gold; /* Цвет половины звезды */
+    clip-path: polygon(0% 0%, 50% 0%, 50% 100%, 0% 100%);
+    margin-right: -10px;
+}
+.half-star-right{
+    font-size: 24px;
+    color: gold; /* Цвет половины звезды */
+    clip-path: polygon(100% 0%, 50% 0%, 50% 100%, 100% 100%);
+    margin-left: -10px;
+}
